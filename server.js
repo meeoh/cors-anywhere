@@ -25,7 +25,7 @@ var cors_proxy = require("./lib/cors-anywhere");
 cors_proxy
   .createServer({
     originBlacklist: originBlacklist,
-    originWhitelist: ["https://stupefied-leavitt-b594cd.netlify.app/"],
+    originWhitelist: ["https://stupefied-leavitt-b594cd.netlify.app"],
     requireHeader: ["origin", "x-requested-with"],
     checkRateLimit: checkRateLimit,
     removeHeaders: [
